@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: black;
+}
+
+.logo{
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+}
+body{
+    margin: 0%;
+}
+.barra{
+    width: 100px;
+    height: 10px;
+    margin-left: 00px;
+    background-color: black;
+}
+.smartfit{
+    margin-left: 15%;
+   font-family:  gotham-bold;
+
+}
+p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.quadrado{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+img{
+
+    margin-left: 0px;
+    max-width: 35px;
+    padding: 10px;
+}
+.hora{
+    margin-top: -40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: gotham-light;
+    src: url(./fonts/gotham-light.woff2);
+}
+@font-face {
+    font-family: gotham-black;
+    src: url(./fonts/gotham-black.woff2);
+}
+@font-face {
+    font-family: gotham-bold;
+    src: url(./fonts/gotham-bold.woff2);
+}
+@font-face {
+    font-family: gotham-book;
+    src: url(./fonts/gotham-book.woff2);
+}
+h2{
+    font-family: gotham-light;
+    color: gray;
+    margin-left: 10px;
+}
+.linha{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    
+}
+form{
+    font-family: gotham-light;
+    color: gray;
+    margin-left: 10px;
+}
+.button{
+    font-family: gotham-black;
+    color: gray;
+    margin-left: 10px;
+    
+
+
+}
+.hora1{
+    margin-top: -20px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.button1{
+    margin-right: 50px;
+    margin-left: 150px;
+    height: 50px;
+    background-color:#FFB612 ;
+    font-family: gotham-bold;
+    font-size: 11px;
+    border: solid 0px;   
+    width: 300px;
+    margin-bottom:20px ;
+    border-radius: 5px;
+}
+.button2{
+    margin-right: 100px;
+    margin-left: 195px;
+    height: 50px;
+    font-family: gotham-bold;
+    font-size: 11px;
+    width: 300px;
+    background-color:#ffffff ;
+    border-radius: 5px;
+
+}
+.resultados{
+    margin-right: 10px;
+    margin-top: -20px;
+    text-align: right;
+    padding-right:20px ;
+}
+.numero{
+    font-family: gotham-black;
+    margin-top: -18px;
+    margin-right: -12px;
+    
+}
+
+.informações{
+    background-color:rgb(207, 203, 203);
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mascara{
+    margin-right: 25%;
+    font-family: gotham-bold;
+    margin-left: 38px;
+}
+.mascaraVerde{
+    margin-left: 10px;
+
+}
+.mascaraCinza{
+    margin-left: 10px;
+
+}
+.Obrigatório{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: -10px;
+}
+.Recomendado{
+    margin-left: 80px;
+    font-size: 13px;
+    margin-top: -16px;
+}
+.Toalha{
+    margin-left: 220px;
+    font-family: gotham-bold;
+    margin-top: -18px;
+}
+.toalhaVerde{
+    margin-left: 40px;
+}
+.toalhaCinza{
+    margin-left: 10px;
+}
+.Obrigatório2{
+    margin-left: 165px;
+    font-size: 13px;
+    margin-top: -15px;
+}
+.Recomendado2{
+    margin-left: 235px;
+    font-size: 13px;
+    margin-top: -16px;
+}
+.garrafa{
+   
+    font-family: gotham-bold;
+    margin-left: 340px;
+    margin-top: -20px;
+}
+.garrafaAmarela{
+     margin-left: 10px;
+}
+.garrafaVermelha{
+     margin-left: 10px;
+}
+.Parcial{
+   margin-left: 325px;
+   font-size: 13px;
+   margin-top: -16px;
+}
+.Proibido{
+   margin-left: 390px;
+   font-size: 13px;
+   margin-top: -16px;
+}
+.vestiario{
+   
+    font-family: gotham-bold;
+    margin-left: 500px ;
+    margin-top: -20px;
+}
+.cabideVerde{
+   margin-left: 10px;
+}
+.cabideAmarelho{
+    margin-left: 10px;
+}
+.cabideVermelho{
+    margin-left: 10px;
+
+}
+.Liberado{
+   margin-left: 455px;
+   font-size: 13px;
+   margin-top: -16px;
+}
+.Parcial2{
+   margin-left: 525px;
+   font-size: 13px;
+   margin-top: -16px;
+}
+.Fechado{
+   margin-left: 585px;
+   font-size: 13px;
+   margin-top: -16px;
+}
+.mascaras{
+    margin-left: 1px;
+}
+.toalhas{
+    margin-right: 100px;
+}
+.informaçoes2{
+    display:flex;
+    margin-right: 0%;
+    margin-left: 0%;
+    justify-content: center;
+}
+.liberada{
+    background-color:rgb(207, 203, 203);
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    padding-right: 6%;
+    border-radius: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.aberto{
+    font-family: gotham-bold;
+    color: #2FC022;
+}
+.cronograma2{
+    margin-left: 100px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.horario1{
+    margin-left: 8px;
+}
+.horario2{
+   margin-left: 90px;
+   margin-top: -20px;
+}
+.fechada{
+    margin-left: -5px;
+}
+.mascaraVerde2{
+    height: 40px;
+
+}
+.toalhaVerde2{
+    height: 40px;
+
+}
+.garrafaAmarela2{
+    height: 40px;
+
+}
+.cabideVermelho2{
+    height: 40px;
+
+}
+.fechado{
+    color: #dc0a17 ;
+    font-family: gotham-bold;
+}
+.bloqueado{
+    background-color:rgb(207, 203, 203);
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    padding-left: 1%;
+    border-radius: 5%;
+    padding-top: 1%;
+}
+.bloqueado2{
+    background-color:rgb(207, 203, 203);
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    padding-left: 1%;
+    border-radius: 5%;
+    padding-top: 1%;
+}
+.rodapé{
+    background-color:rgb(49, 49, 49);
+    margin-bottom: 0%;
+}
+.rodapé2{
+    text-align-last: center;
+    color: #ffffff;
+}
+.texto{
+    color: #ffffff;
+    width: 100%;
+}
+.logo2{
+    text-align-last: center;
+    max-width: 150px;
+    padding: 10px;
+}
+.local{
+    margin-left: -0px;
+    
+
+}
