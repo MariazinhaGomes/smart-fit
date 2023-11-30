@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-@media only screen and (max-device-width: 900px) {
-/* .menu { width:100%; } */
-}
-
 .cabecalho{
     background-color: black;
 }
@@ -27,7 +23,6 @@ body{
 .smartfit{
     margin-left: 15%;
    font-family:  gotham-bold;
-
 }
 p{
     margin-left: 15%;
@@ -37,8 +32,7 @@ p{
     border: 2px solid gray;
     border-radius: 5px;
     margin-left: 15%;
-    margin-right: 15%;
-    
+    margin-right: 15%; 
 }
 img{
 
@@ -75,8 +69,7 @@ h2{
 .linha{
     margin-left: 10px;
     margin-right: 10px;
-    width: auto;
-    
+    width: auto; 
 }
 form{
     font-family: gotham-light;
@@ -87,16 +80,12 @@ form{
     font-family: gotham-black;
     color: gray;
     margin-left: 10px;
-    
-
-
 }
 .hora1{
     margin-top: -20px;
     margin-right: 10px;
     text-align: right;
 }
-
 .button1{
     margin-right: 50px;
     margin-left: 150px;
@@ -130,9 +119,7 @@ form{
     font-family: gotham-black;
     margin-top: -18px;
     margin-right: -12px;
-    
 }
-
 .informações{
     background-color:rgb(207, 203, 203);
     margin-left: 15%;
@@ -147,11 +134,9 @@ form{
 }
 .mascaraVerde{
     margin-left: 10px;
-
 }
 .mascaraCinza{
     margin-left: 10px;
-
 }
 .Obrigatório{
     margin-left: 10px;
@@ -185,7 +170,6 @@ form{
     margin-top: -16px;
 }
 .garrafa{
-   
     font-family: gotham-bold;
     margin-left: 340px;
     margin-top: -20px;
@@ -207,7 +191,6 @@ form{
    margin-top: -16px;
 }
 .vestiario{
-   
     font-family: gotham-bold;
     margin-left: 500px ;
     margin-top: -20px;
@@ -220,7 +203,6 @@ form{
 }
 .cabideVermelho{
     margin-left: 10px;
-
 }
 .Liberado{
    margin-left: 455px;
@@ -332,6 +314,4 @@ form{
 }
 .local{
     margin-left: -0px;
-    
-
 }
