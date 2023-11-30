@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:100%; } */
+}
 
 .cabecalho{
     background-color: black;
