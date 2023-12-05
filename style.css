@@ -316,3 +316,7 @@ form{
 .local{
     margin-left: -0px;
 }
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
